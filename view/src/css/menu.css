@@ -11,7 +11,7 @@ nav div li a, nav a{
 }
 
 nav div li a{
-    font-size:14px;
+    font-size:15px;
 }
 
 .navbar-dark .navbar-toggler {
@@ -21,4 +21,16 @@ nav div li a{
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.67);
+}
+
+
+/* **********************************+ */
+
+.container{
+    margin-top : 20px;
+}
+
+.row{
+    padding: 5px 5px;
+    margin:  5px 5px;
 }

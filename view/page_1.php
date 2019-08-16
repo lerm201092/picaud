@@ -12,16 +12,17 @@
     <!-- MENU -->
     <?php include "./include/header.php"; ?>
 
-    <!-- INICIO - CONTENIDO DE LA PAGINA -->
-    
-<div class="container">
-    <h2>Titulo</h2>
-        <div class="row col-">
+    <!-- INICIO - CONTENIDO DE LA PAGINA -->    
+    <div class="container">
+        <h2>Titulo</h2>
+        <div class="row col-12">
             <video id="myvideo" src="./src/video/banner.mp4" style="width:100% ; height:auto;"></video>
         </div>
         <p class="mr-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt amet delectus, quasi consectetur porro cum neque unde nam doloremque non aliquid repellat officia libero nesciunt consequatur temporibus rerum? Dolore, nisi.</p>
         <button type="button" class="btn btn-outline-success">comprobar lo aprendido<i class="fa fa-arrow-circle-o-right"></i></button>
     </div>
     <!-- FIN - CONTENIDO DE LA PAGINA -->
+
     <?php include "./include/scriptsComun.php"; ?>
+</body>
 </html>

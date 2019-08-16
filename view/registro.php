@@ -12,65 +12,81 @@
     <!-- MENU -->
     <?php include "./include/header.php"; ?>
 
-    <!-- INICIO - CONTENIDO DE LA PAGINA -->
+<!-- INICIO - CONTENIDO DE LA PAGINA -->
+    <div class="container">
+        <div class="card  col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+            <div class="card-body">
+            <!-- Inicio Formulario -->
 
-        <div class="container">
+                <div class="row">
+                    <p style="text-align: center; width:100%;">Registro Usuario</p>
+                </div>
 
-            <br>
-            <div class="card">
-                <div class="card-body">
+                <div class="row">
+                    <!-- Small -->
+                    <div class="input-group col-md-6" >
+                        <select name="cars" class="form-control">
+                            <option selected>Cedula Ciudadania</option>
+                            <option value="volvo">Tarjeta de identidad</option>
+                            <option value="fiat">Cedula Extranjera</option>
+                        </select>
+                    </div>
 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="well well-sm">
-                                <form class="form-horizontal" method="post">
-                        <fieldset>
-                        <legend class="text-center header">Regitro</legend>
+                    <div class="input-group col-md-6" >
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Identificación">
+                    </div>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                               <div class="col-md-8">
-                            <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                    <div class="input-group col-md-6" >
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
                         </div>
+                        <input type="text" class="form-control" placeholder="Nombres">
+                    </div>
+                    
+                    <div class="input-group col-md-6">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
                         </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                               <div class="col-md-8">
-                            <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                        </div>
-                        </div>
+                        <input type="text" class="form-control" placeholder="Apellidos">
+                    </div>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                                <div class="col-md-8">
-                            <input id="email" name="email" type="text" placeholder="Correo" class="form-control">
+                    <div class="input-group col-md-6">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
                         </div>
+                        <input type="text" class="form-control" placeholder="Teléfono">
+                    </div>
+                    
+                    <div class="input-group col-md-6">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-user"></i></span>
                         </div>
+                        <input type="number" class="form-control" placeholder="Edad">
+                    </div>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                                <div class="col-md-8">
-                            <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+                    <div class="input-group col-12">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-at"></i></span>
                         </div>
-                        </div>
-
-                        <div class="form-group">
-                        <div class="col-md-12 text-center">
-                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                        </div>
-                        </div>
-                        </fieldset>
-                        </form>
+                        <input type="text" class="form-control" placeholder="Correo Electronico">
                     </div>
                 </div>
-            </div>
-        </div> 
 
+                <div class="row">
+                    <p style="text-align:center; width:100%">
+                        <a href="" class="btn btn-sm btn-light"> <i class="fa fa-home"></i> Regresar</a>&nbsp;&nbsp;
+                        <a href="" class="btn btn-sm btn-primary"> <i class="fa fa-check"></i> Guardar</a>
+                    </p>
+                </div>
+
+
+            <!-- Fin Formulario -->
+            </div>  
         </div>
-        </div>
-
-    
-
+    </div>  
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 
     <?php include "./include/scriptsComun.php"; ?>
