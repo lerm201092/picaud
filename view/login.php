@@ -3,21 +3,21 @@
 <head>
     <title>PICAUD</title>
     <!-- Importamos los css comunes y propiedades de la pagina -->
-    <?php include "../../view/include/head.php"; ?>
+    <?php include "./include/head.php"; ?>
     <!-- css propoio de la pagina -->
-    <link rel="stylesheet" href="../../view/src/css/login.css">
+    <link rel="stylesheet" href="./src/css/login.css">
 </head>
 <body>
 
     <!-- MENU -->
-    <?php include "../../view/include/header.php"; ?>
+    <?php include "./include/header.php"; ?>
 
     <!-- INICIO - CONTENIDO DE LA PAGINA -->
      <br>
      <div class="container">
         <div class="card" style="width:400px">
             <div class="card-body text-center">
-                <img class="logo" src="../../view/src/img/user.png" alt="">
+                <img class="logo" src="./src/img/user.png" alt="">
                 <form action="/action_page.php">
                     <div class="form-group">
                         <label for="email">Usuario</label>
@@ -40,7 +40,7 @@
 
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 
-    <?php include "../../view/include/scriptsComun.php"; ?>
+    <?php include "./include/scriptsComun.php"; ?>
 
 </body>
 </html>

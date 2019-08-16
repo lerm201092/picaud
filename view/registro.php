@@ -3,14 +3,14 @@
 <head>
     <title>PICAUD</title>
     <!-- Importamos los css comunes y propiedades de la pagina -->
-    <?php include "../../view/include/head.php"; ?>
+    <?php include "./include/head.php"; ?>
     <!-- css propoio de la pagina -->
-    <link rel="stylesheet" href="../../view/src/css/registro.css">
+    <link rel="stylesheet" href="./src/css/registro.css">
 </head>
 <body>
 
     <!-- MENU -->
-    <?php include "../../view/include/header.php"; ?>
+    <?php include "./include/header.php"; ?>
 
     <!-- INICIO - CONTENIDO DE LA PAGINA -->
 
@@ -73,6 +73,6 @@
 
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 
-    <?php include "../../view/include/scriptsComun.php"; ?>
+    <?php include "./include/scriptsComun.php"; ?>
 </body>
 </html>

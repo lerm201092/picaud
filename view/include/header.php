@@ -19,10 +19,10 @@
     </ul>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="../src/registro.php"><i class="fa fa-user-plus"></i> Registro</a>
+        <a class="nav-link" href="./registro.php"><i class="fa fa-user-plus"></i> Registro</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link" href="../src/login.php"><i class="fa fa-unlock-alt"></i> Iniciar Sesion</a>
+        <a class="nav-link" href="./login.php"><i class="fa fa-unlock-alt"></i> Iniciar Sesion</a>
       </li> 
     </ul>
   </div> 
