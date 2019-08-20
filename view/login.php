@@ -32,11 +32,16 @@
                         <input class="form-check-input" type="checkbox">Recordar contraseña
                     </label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Iniciar</button>
+                    <a type="button" href="./pagina1.php" class="btn btn-primary">Iniciar</a>
                 </form>
             </div>
         </div>
     </div>
+    <br>
+    <br>
+   <!-- Footer -->
+   <?php include "include/footer.php"; ?>
+    <!-- Fin de footer -->
 
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 

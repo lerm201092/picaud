@@ -17,9 +17,42 @@
             <source src="./src/video/banner.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>
+        </div>
+        <div class="container">
+        <div class="card-columns">
+        <div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+</div>
+</div>
+    <!-- Footer -->
+    <?php include "include/footer.php"; ?>
+    <!-- Fin de footer -->
+
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 
+    <?php include "./include/scriptsComun.php"; ?>
     <?php include "./include/scriptsComun.php"; ?>
 </body>
 </html>

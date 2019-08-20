@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="./index.php"><img src="./src/img/logo.png" style="height:60px; width: auto;"></a>
+  <a class="navbar-brand" href="./index.php"><img src="./src/img/LOGO-PICAUCD.png" style="height:60px; width: auto;"></a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">

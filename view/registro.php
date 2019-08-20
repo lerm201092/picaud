@@ -87,6 +87,11 @@
             </div>  
         </div>
     </div>  
+</div>
+       <!-- Footer -->
+       <?php include "include/footer.php"; ?>
+    <!-- Fin de footer -->
+
     <!-- FIN - CONTENIDO DE LA PAGINA -->
 
     <?php include "./include/scriptsComun.php"; ?>
