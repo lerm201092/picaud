@@ -14,7 +14,7 @@
 
     <!-- INICIO - CONTENIDO DE LA PAGINA -->
      <br>
-     <div class="container">
+     <div class="container" style="padding-top:60px">
         <div class="card" style="width:400px">
             <div class="card-body text-center">
                 <img class="logo" src="./src/img/user.png" alt="">
@@ -37,7 +37,6 @@
             </div>
         </div>
     </div>
-    <br>
     <br>
    <!-- Footer -->
    <?php include "include/footer.php"; ?>

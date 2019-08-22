@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="./index.php"><img src="./src/img/LOGO-PICAUCD.png" style="height:60px; width: auto;"></a>
+  <a class="navbar-brand" href="./index.php"><img src="./src/img/LOGO-PICAUD.png" style="height:60px; width: auto;"></a>
 
   <!-- Toggler/collapsibe Button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -12,6 +12,9 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="#"><i class="fa fa-home"></i> Quienes Somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./grupo.php"><i class="fa fa-group"></i> Grupo de trabajo</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><i class="fa fa-phone"></i> Contactenos</a>
