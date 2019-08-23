@@ -1,11 +1,8 @@
-.logo{
-    width: 100px;
-    height: 100px;
+#div_login{
+    padding-top:30px;
 }
-.container {
-    width: 100%;
-    padding-right: 370px;
-    padding-left: 370px;
-    margin-right: auto;
-    margin-left: auto;
+
+#img_login{
+    width:100px;
+    height: auto;
 }

@@ -1,3 +1,7 @@
+body {
+    font-family: "Century Gothic", sans-serif !important;
+  }
+
 nav{
     background : #fc7323!important;
     color: white;
@@ -23,14 +27,35 @@ nav div li a{
     color: rgba(255, 255, 255, 0.67);
 }
 
+.banner{
+    width: 100%;
+    height: auto;
+}
 
 /* **********************************+ */
 
-.container{
-    margin-top : 20px;
+.row{
+    margin: 15px 0px;
 }
 
-.row{
-    padding: 5px 5px;
-    margin:  5px 5px;
+.container{ 
+    padding-bottom: 60px;
+}
+
+/* FOOTER */
+footer{
+    height: 40px;
+    position: fixed;
+    width: 100%;  
+    bottom:0;
+    color: #3e3e3e;
+    background: #ccc;
+}
+
+footer div p{
+    width:100%;
+    text-align:center;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 13px;
 }

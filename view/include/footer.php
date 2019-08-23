@@ -1,6 +1,5 @@
 <footer>
-    <div class="footer">
-        <br>
-      <h3>SENA - Regional Atlántico</h3>  
+    <div>
+      <p>Copyright 2019 | PICAUD (SENNOVA - SENA ATLANTICO)</p>  
     </div>
 </footer>
