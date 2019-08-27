@@ -1,4 +1,7 @@
-<img class="banner" src="./src/img/FOOTER-5.jpg" alt="">
+<div class="row" style="margin:0;">
+  <img class="banner" src="./src/img/FOOTER-5.jpg" alt="" style="width:90%; margin:0px auto;" onclick="location.href='./';">
+</div>
+
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
   <a class="navbar-brand" href="./index.php"><i class="fa fa-home"></i></a>
